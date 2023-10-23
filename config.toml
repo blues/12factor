@@ -1,0 +1,55 @@
+baseURL = "/"
+theme = "hugo-whisper-theme"
+languageCode = "en-us"
+title = "Hugo Whisper Theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Factors"
+    url = "/factors/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/factors'
+  homepage_button_text = 'Read The 12 Factors'
+  homepage_intro = 'The Twelve-Factor Connected Device methodology is a roadmap for the next generation of connected devices. These principles prioritize simplicity, resilience, and a strong affinity between device and cloud, ensuring that connected devices will function, remain secure, and evolve long after deployment.'
+  homepage_image = '/images/logo.png'
+
+  ## You can enable to add anchor links to header elements
+  enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "The Twelve-Factor Connected Device methodology is a roadmap for the next generation of connected devices.."
+    meta_og_title = "The Twelve-Factor Connected Device"
+    meta_og_type = "website"
+    meta_og_url = "https://12factor.io"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "The Twelve-Factor Connected Device methodology is a roadmap for the next generation of connected devices. These principles prioritize simplicity, resilience, and a strong affinity between device and cloud, ensuring that connected devices will function, remain secure, and evolve long after deployment."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@buildwithblues"
+    meta_twitter_creator = "@buildwithblues"
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard  = "/images/logo.svg"
+
+  [params.footer]
+    copyright_text = 'Written by <a target="_new" href="https://www.linkedin.com/in/rayozzie/">Ray Ozzie</a> & <a target="_new" href="https://linkedin.com/in/bsatrom">Brandon Satrom</a>'
