@@ -48,8 +48,8 @@ summaryLength = 30
     meta_twitter_creator = "@buildwithblues"
 
   [params.logo]
-      mobile = "/images/logo-mobile.svg"
-      standard  = "/images/logo.svg"
+      mobile = "/images/header-logo-mobile.svg"
+      standard  = "/images/header-logo.svg"
 
   [params.footer]
     copyright_text = 'Written by <a target="_new" href="https://www.linkedin.com/in/rayozzie/">Ray Ozzie</a> & <a target="_new" href="https://linkedin.com/in/bsatrom">Brandon Satrom</a>'
