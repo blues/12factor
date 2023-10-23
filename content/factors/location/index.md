@@ -5,3 +5,4 @@ date: 2023-10-20
 weight: 7
 ---
 
+Harmonized geolocation with unified devex, whether GPS/GNSS, Tower, or Triangulated location.

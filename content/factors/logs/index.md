@@ -5,3 +5,4 @@ date: 2023-10-20
 weight: 11
 ---
 
+Standard status/error logging mechanism as an event stream.
