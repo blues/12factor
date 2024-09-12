@@ -13,7 +13,7 @@ In this paradigm, a device can belong to multiple fleets if a need exists to fur
 
 With fleets as the organization paradigm, device configuration should be managed via the cloud and multicast to fleets (and thus devices) using collections of key-value pairs called *environment variables* (often shortened to *env vars* or even *env*).
 
-A thing’s configuration, or config, is everything that is likely to vary one fleet to the next, or from one device to the next depending on its state. This could be:
+A thing’s configuration, or config, is everything that is likely to vary from one fleet to the next, or from one device to the next depending on its state. This could be:
 
 - Sensor sampling or data synchronization frequency
 - The behavior of a managed actuator

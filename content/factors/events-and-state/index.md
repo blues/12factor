@@ -5,7 +5,7 @@ date: 2024-09-11
 weight: 4
 ---
 
-In an embedded device, events are the artifacts created by the operating behavior of a device (such as reading from a sensor or actuation) while state represents the condition of the device (for example it’s voltage and location) at a point in time.
+In an embedded device, events are the artifacts created by the operating behavior of a device (such as reading from a sensor or actuation) while state represents the condition of the device (for example its voltage and location) at a point in time.
 
 The twelve-factor thing is connected from birth, and its events and state should always be synchronized and harmonized with its cloud service. Events should never be stored on a device permanently, merely cached until the next point of synchronization and purged. State can and should be stored on a device, but should always be replicated to the device’s management service so that the cloud service and downstream consumers have an accurate view of the device’s condition and behavior. State, and even event data when template-driven, should share a common and predictable schema across device and cloud so that data on the wire can be compressed for the sake of speed and efficiency.
 
