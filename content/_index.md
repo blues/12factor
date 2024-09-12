@@ -1,6 +1,6 @@
 ---
-title: 'The Twelve-Factor Connected Device'
-date: 2018-11-28T15:14:39+10:00
+title: 'The Twelve-Factor Thing'
+date: 2024-09-11
 ---
 
-Drawing from the real-world experience of developers, system architects, and operations professionals, the Twelve-Factor Connected Device methodology is a roadmap for the next generation of connected devices. These principles prioritize simplicity, resilience, and a strong affinity between device and cloud, ensuring that connected devices will function, remain secure, and evolve long after deployment.
+The App of the future is a connected thing, and much as the Twelve-Factor App methodology addressed the inherent complexity of building robust, secure, scalable cloud apps and services in a straightforward manner, this methodology, the Twelve-Factor Thing, intends to do the same for the managed, intelligent edge device and products based upon them.

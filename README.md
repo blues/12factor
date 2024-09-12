@@ -1,2 +1,2 @@
 # 12factor
-The Twelve Factor Connected Device
+The Twelve Factor Thing

@@ -1,8 +1,10 @@
 ---
 title: 'Authentication'
 description: 'Apply a cloud-centric security model.'
-date: 2023-10-20
+date: 2024-09-11
 weight: 10
 ---
 
-30+ year HSM-based device authentication; shorter duration cloud cents with automatic rotation when root certs change.  Even though it's a client, the security model is the inverse of PC desktops: first protect the server against client spoofing, then protect the device against a cloud MITM.
+**A twelve-factor thing never stores keys, certs or secrets in flash or removable media, and never relies on the cloud management service for key creation or rotation.** Instead, a connected product should always ensure the presence of a secure enclave or Hardware Security Module (HSM) integrated into the part of the product responsible for communication with the cloud management service over one or more RATs. The HSM is responsible for device authentication to the cloud service and never delivers its keys to the edge device.
+
+Cloud-based certs on the device management service should never be shared with devices and should be rotated if and when root certificates change. Even though the twelve-factor thing is a client device, the security model should be thought of as an inverse of how PC desktop security is managed relative to cloud services. It is essential to first protect the service against client spoofing, then to protect an individual device against cloud-based Man-in-the-Middle attacks.
