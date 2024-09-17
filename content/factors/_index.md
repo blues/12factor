@@ -5,13 +5,13 @@ weight: 1
 ---
 
 ## Introduction
-We’ve entered the era of data and AI. An era where the value of any business process or application is measured by insights unlocked, business models enabled, and decisions accelerated. There’s more need than ever to connect the unconnected: to bring the physical world online so that the data in our machines, factories, cities, and vehicles can unlock those insights, business models, and decisions. In this data and AI era, embracing an architecture of cloud-connected devices has never been more imperative. And yet, engineers and builders are locked into Radio Access Technologies (RATs), perpetually subject to network sunsets, scrambling to maintain systems insecurely attachable from the internet, and building systems that either do not scale, or can not scale economically.
+We’ve entered the era of data and AI. An era where the value of any business process or application is measured by insights unlocked, business models enabled, and decisions accelerated. There’s more need than ever to connect the unconnected: to bring the physical world online so that the data in our machines, factories, cities, and vehicles can unlock those insights, business models, and decisions. In this data and AI era, embracing an architecture of cloud-connected devices has never been more imperative. And yet, engineers and builders are locked into Radio Access Technologies (RATs), forever at the mercy of network sunsets, scrambling to maintain systems insecurely attachable from the internet, and building systems that either do not scale, or can not scale economically.
 
-The enemy of hyper-scale systems that are reliable, secure, and economical is a Do-It-Yourself (DIY) approach: piecemeal chip-down design that connects an off-the-shelf low-cost modem to a bespoke or packaged IoT platform.
+The enemy of hyper-scale systems that are reliable, secure, and economical is a Do-It-Yourself (DIY) approach: piecemeal chip-down design that connects an off-the-shelf low-cost modem to a bespoke cloud application or packaged IoT platform.
 
 The modem is dead. The IoT Platform is dead. This document explains why.
 
-It’s the era of standardized cloud toolchains, standard cloud app talent, hardware security, myriad cloud data stores, and myriad wireless transports. It’s an era of harmonization and driving interoperability across RATs, cloud stores, and physical device services through API-driven approaches.
+It’s the era of standardized cloud toolchains, standard cloud app talent, hardware security, myriad cloud data stores, and a multitude of wireless transports. It’s an era of harmonization and driving interoperability across RATs, cloud stores, and physical device services through API-driven approaches.
 
 The twelve-factor thing is a methodology for building managed, intelligent edge devices. They are:
 

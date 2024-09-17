@@ -14,6 +14,6 @@ For storage, either on a device or cloud service, there are four dominant patter
 - Bi-directional queues, or buckets of event data that is stored on a source until the next opportunity for delivery to a target.
 - Replicated Key-Value pairs, which are always reconciled between device and service upon connection. These can take the form of shared “database” files or cloud-like key-value pairs.
 - Proxied, real-time RPC, where the cloud service performs a remote request on behalf of a device and delivers the result to the device at the earliest opportunity.
-- Flexible datatypes driven by templates or data formatters.
+- Copressed or binary objects driven by templates or data formatters.
 
 The twelve-factor thing assumes that events and state will be synchronized to and replicated with a cloud service, but it does not store or send data in a way that prevents any form of downstream storage, whether they are “hot” time-series and relational databases used to drive apps and their user interface, “hot” and “warm” databases used for analytics, or “cold” data warehouses.
