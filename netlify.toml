@@ -9,5 +9,6 @@ command = """\
   tar -xf bulma-1.0.2.tar.gz && \
   rm bulma-1.0.2.tar.gz && \
   export PATH=/opt/build/repo/bulma:$PATH && \
+  git submodule update --init --recursive && \
   hugo --gc --minify \
   """
