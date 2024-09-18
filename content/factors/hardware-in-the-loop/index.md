@@ -1,8 +1,9 @@
 ---
 title: 'Hardware-in-the-Loop'
 description: 'Extend testing from the cloud to physical and virtual devices.'
-date: 2024-09-11
 weight: 13
+toc: false
+titleIcon: "fa-solid fa-check-double"
 ---
 
 In the modern era, testing is not just a nice-to-have, but a must have for all forms of application and product development. And while web and cloud application developers have long embraced a number of testing approaches, both manual and automated, testing embedded applications has lagged behind due to the constraints and challenges of developing in this environment.

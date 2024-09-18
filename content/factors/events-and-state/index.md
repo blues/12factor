@@ -1,8 +1,9 @@
 ---
 title: 'Events & State'
 description: 'Synchronize state and event flow between the device & cloud.'
-date: 2024-09-11
 weight: 4
+toc: false
+titleIcon: "fa-solid fa-rotate"
 ---
 
 In an embedded device, events are the artifacts created by the operating behavior of a device (such as reading from a sensor or actuation) while state represents the condition of the device (for example its voltage and location) at a point in time.

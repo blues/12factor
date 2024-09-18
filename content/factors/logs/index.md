@@ -1,8 +1,9 @@
 ---
 title: 'Logs'
 description: 'Treat logs as event streams.'
-date: 2024-09-11
 weight: 11
+toc: false
+titleIcon: "fa-solid fa-clipboard-list"
 ---
 
 Logs provide visibility into the behavior, state, and environment of a running device. Embedded devices commonly write logs to local flash or to removable media like an SD card; but this is only an output format.

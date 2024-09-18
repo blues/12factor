@@ -1,5 +1,5 @@
-baseURL = "/"
-theme = "hugo-whisper-theme"
+baseURL = "https://12factor.io"
+theme = "shadocs"
 languageCode = "en-us"
 title = "The Twelve-Factor Thing"
 

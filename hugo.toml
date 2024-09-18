@@ -1,0 +1,75 @@
+baseURL = 'https://12factor.io'
+languageCode = 'en-us'
+title = 'The Twelve-Factor Thing'
+copyright              = "The MIT License (MIT) Copyright © 2024 Brandon Satrom & Ray Ozzie"
+defaultContentLanguage = "en"
+enableEmoji            = false
+enableGitInfo          = true
+metaDataFormat         = "yaml"
+publishDir             = "public"
+theme                  = "shadocs"
+
+[params.author]
+  name = "Brandon Satrom & Ray Ozzie"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.112.0'
+    max = ''
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  [[module.mounts]]
+    source = 'assets'
+    target = 'static/assets'
+  [[module.mounts]]
+    source = 'asyncapi'
+    target = 'static/asyncapi'
+  [[module.mounts]]
+    source = 'openapi'
+    target = 'static/openapi'
+  [[module.mounts]]
+    source = 'jsoneditor'
+    target = 'static/jsoneditor'
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    ordered    = false
+    startLevel = 1
+    endLevel   = 6
+  [markup.goldmark.renderer]
+    unsafe = false
+
+#
+# Specific configuration
+#
+[params]
+  logo                    = "images/12Factor.png"
+  logoTouch               = "images/apple-touch-icon.png"
+  image404                = "images/404.gif"
+  favicon                 = "images/favicon.ico"
+  faviconmd               = "![Favicon](/images/favicon.ico)"
+  # homeLayout              = "onboarding"
+  siteContentOrder        = "weight"
+  # toc                     = true
+  # globalBanner            = true
+  # enforceRefrelLinks      = true
+  navbarPrintEntry        = false
+  navbarQRCodeEntry       = false
+  navbarSchortcutsEntry   = false
+  # navbarInfo              = false
+  currentVersion          = "latest"
+  latestVersionUrl        = 'https://12Factor.io/'
+  [params.taxonomies]
+    [params.taxonomies.categories]
+      icon = "fa-solid fa-table-cells"
+    [params.taxonomies.tags]
+      icon = "fa-solid fa-tag"
+  [params.versions]
+    hugo_min         = "[0.112.0](https://github.com/gohugoio/hugo/releases/tag/v0.112.0)"
+    bulma            = "[0.9.4](https://github.com/jgthms/bulma/releases/tag/0.9.4)"

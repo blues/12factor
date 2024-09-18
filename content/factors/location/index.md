@@ -1,8 +1,9 @@
 ---
 title: 'Location'
 description: 'Build for “best" location, regardless of underlying methodology.'
-date: 2024-09-11
 weight: 7
+toc: false
+titleIcon: "fa-solid fa-location-dot"
 ---
 
 Connected products inherit their “location” from the underlying Radio Access Technologies (RATs) they have access to. Devices with a GPS/GNSS module, the appropriate antenna, and a clear view of the sky have access to satellite-based positioning. Obtaining this information, however, is a power-intensive operation meaning that this data is inherently stale depending on how the device is powered, its frequency of polling, and the speed at which it is moving. Devices without GPS/GNSS or devices operating indoors or inside of a Faraday cage do not have access to this information and must take other approaches if location is needed.

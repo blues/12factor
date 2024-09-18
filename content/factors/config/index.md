@@ -1,8 +1,9 @@
 ---
 title: 'Config via Fleets'
 description: 'Organize devices by fleet & store config in the cloud.'
-date: 2024-09-11
 weight: 5
+toc: false
+titleIcon: "fa-solid fa-network-wired"
 ---
 
 A device should never be treated as a group of one, even from the first Prototype. **The twelve-factor thing instead uses the “fleet” as the predominant organizational paradigm** and the way that a connected product manages the lifecycle, deployment location, and behavior of devices.

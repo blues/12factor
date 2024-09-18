@@ -1,8 +1,9 @@
 ---
 title: 'Transport'
 description: 'Target a harmonized API that operates across transport protocols.'
-date: 2024-09-11
 weight: 3
+toc: false
+titleIcon: "fa-solid fa-tower-cell"
 ---
 
 Radio Access Technologies (RATs) like cellular, Wi-Fi, LoRa, and Satellite have long required engineers to intimately understand and design for the features and constraints of the transport in order to bring a product online. These features and constraints impact both hardware (antenna selection, matching network design) and firmware (AT Commands, IP or NIDD communication) in such a way that product builders have historically designed for and locked themselves into a single RAT.

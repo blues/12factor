@@ -1,8 +1,9 @@
 ---
 title: 'Time'
 description: 'Ensure devices always keep time.'
-date: 2024-09-11
 weight: 8
+toc: false
+titleIcon: "fa-solid fa-clock"
 ---
 
 Connected products should keep time and append time to every captured sensor reading or log, even when a connection to an underlying transport is not present. When a device is powered and is still offline, or a connection has been lost, an internal counter should be used as a stand-in for captured time until a transport or cloud-based connection is made and time is obtained. When time is obtained, the captured time of offline readings should be reconciled by subtracting the internal counter from the time obtained from a transport or service.

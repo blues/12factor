@@ -1,8 +1,9 @@
 ---
 title: 'Firmware'
 description: 'Treat firmware as a cloud-managed aspect of your app.'
-date: 2024-09-11
 weight: 9
+toc: false
+titleIcon: "fa-solid fa-file-arrow-down"
 ---
 
 In the context of a connected product, *firmware* is the collection of assets that make up the runtime of a device. This often includes:

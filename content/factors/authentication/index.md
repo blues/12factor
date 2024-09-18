@@ -1,8 +1,9 @@
 ---
 title: 'Authentication'
 description: 'Apply a cloud-centric security model.'
-date: 2024-09-11
 weight: 10
+toc: false
+titleIcon: "fa-solid fa-lock"
 ---
 
 **A twelve-factor thing never stores keys, certs or secrets in flash or removable media, and never relies on the cloud management service for key creation or rotation.** Instead, a connected product should always ensure the presence of a secure enclave or Hardware Security Module (HSM) integrated into the part of the product responsible for communication with the cloud management service over one or more RATs. The HSM is responsible for device authentication to the cloud service and never delivers its keys to the edge device.

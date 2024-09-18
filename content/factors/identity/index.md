@@ -1,8 +1,9 @@
 ---
 title: 'Identity'
 description: 'Build for a single identity that can “fan out” when needed.'
-date: 2024-09-11
 weight: 12
+toc: false
+titleIcon: "fa-solid fa-circle-user"
 ---
 
 The twelve-factor thing is a device that is designed to turn a machine, container, or otherwise disconnected thing into a connected product. When connected, the product needs to be identifiable as a single unit to management services, solution services and cloud applications, while enabling the embedded part of the product to be ephemeral so that it can be serviced and replaced, as needed.
