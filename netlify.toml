@@ -5,9 +5,9 @@ BULMA_SASS_VERSION = "1.02.5"
 [build]
 publish = "public"
 command = """\
-  curl -LJO https://github.com/jgthms/bulma/archive/refs/tags/${BULMA_SASS_VERSION}.tar.gz && \
-  tar -xf ${BULMA_SASS_VERSION}.tar.gz && \
-  rm ${BULMA_SASS_VERSION}.tar.gz && \
+  curl -LJO https://github.com/jgthms/bulma/archive/refs/tags/bulma-${BULMA_SASS_VERSION}.tar.gz && \
+  tar -xf bulma-${BULMA_SASS_VERSION}.tar.gz && \
+  rm bulma-${BULMA_SASS_VERSION}.tar.gz && \
   export PATH=/opt/build/repo/bulma:$PATH && \
   hugo --gc --minify \
   """
