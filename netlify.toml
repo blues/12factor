@@ -1,6 +1,6 @@
 [build.environment]
-  HUGO_VERSION = "0.134.2"
-  BULMA_SASS_VERSION = "1.02.5"
+HUGO_VERSION = "0.134.2"
+BULMA_SASS_VERSION = "1.02.5"
 
 [build]
 publish = "public"
