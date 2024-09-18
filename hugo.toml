@@ -27,6 +27,9 @@ theme                  = "shadocs"
     source = 'images'
     target = 'static/images'
   [[module.mounts]]
+    source = 'css'
+    target = 'static/css'
+  [[module.mounts]]
     source = 'asyncapi'
     target = 'static/asyncapi'
   [[module.mounts]]

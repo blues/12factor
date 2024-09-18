@@ -67,11 +67,12 @@
 #
 [includes]
   sass = [
-    "sass/theme/main.sass"
+    "sass/theme/main.sass",
   ]
   css = [
+    # "css/custom.css",
     "css/external/fontawesome.all.min.css",
-    "css/external/overlay-scrollbars/overlayscrollbars.min.css"
+    "css/external/overlay-scrollbars/overlayscrollbars.min.css",
   ]
   js = [
     "js/theme/browserCompatibility.js",

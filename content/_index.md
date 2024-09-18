@@ -1,11 +1,13 @@
 ---
 weight: 0
 title: "The Twelve-Factor Thing"
-description: "An introduction to the Twelve-Factor framework"
+description: "A framework for building modern connected products"
 titleIcon: "fa-solid fa-list-ul"
 ---
 
 The App of the future is a connected thing, and much as the Twelve-Factor App methodology addressed the inherent complexity of building robust, secure, scalable cloud apps and services in a straightforward manner, this methodology, the Twelve-Factor Thing, intends to do the same for the managed, intelligent edge device and products based upon them.
+
+![](/images/device.png)
 
 ## Introduction
 We’ve entered the era of data and AI. An era where the value of any business process or application is measured by insights unlocked, business models enabled, and decisions accelerated. There’s more need than ever to connect the unconnected: to bring the physical world online so that the data in our machines, factories, cities, and vehicles can unlock those insights, business models, and decisions. In this data and AI era, embracing an architecture of cloud-connected devices has never been more imperative. And yet, engineers and builders are locked into Radio Access Technologies (RATs), forever at the mercy of network sunsets, scrambling to maintain systems insecurely attachable from the internet, and building systems that either do not scale, or can not scale economically.
