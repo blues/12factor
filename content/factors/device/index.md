@@ -25,4 +25,6 @@ The first service is the **management service**, which exists to deliver firmwar
 
 The second service is the **solution service**, which exists to receive application data from the device, and forward that data to authorized receivers, such as cloud application stores, or archival services. The solution service is also the secure proxy for device access to other third party APIs and cloud services.
 
+![An image of a twelve-factor thing communicating through management and solution services](/images/device.png)
+
 Together, these two services represent the only access that a connected product has to the outside world. This device is an embedded networked device, not an internet-connected device.

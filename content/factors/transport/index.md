@@ -16,6 +16,9 @@ To be sure, a Harmonized API does not mean that there is parity between all tran
 - A webcam or real-time voice endpoint will want to use an “asynchronous stream abstraction” via the API and maintain a continuous connection to its service.
 - Most other apps will simply use asynchronous “enqueue object”, “dequeue object”, “get named object” or “put named object” forms of API.
 
+
+![An image of a twelve-factor thing with a harmonized API across transports](/images/transport.png)
+
 At the transport level, devices should never be on the internet, regardless of RAT, and should communicate only with its management and solution cloud services using secure synchronous or asynchronous tunnels.
 
 All of the above requires a module with a harmonized API that operates across RATs and translates common API requests into RAT-specific protocols and commands. The end result is a connected product that can be built once, deployed anywhere, and connected using the RAT most appropriate for the product’s deployment location.
