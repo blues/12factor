@@ -3,4 +3,4 @@
 	url = https://github.com/jgazeau/shadocs.git
 [submodule "themes/bulma"]
 	path = themes/bulma
-	url = https://github.com:jgthms/bulma.git
+	url = https://github.com/jgthms/bulma
