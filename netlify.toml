@@ -5,8 +5,8 @@ HUGO_VERSION = "0.134.2"
 publish = "public"
 command = """\
   curl -LJO https://github.com/jgthms/bulma/archive/refs/tags/1.0.2.tar.gz && \
-  tar -xf 1.02.5.tar.gz && \
-  rm 1.02.5.tar.gz && \
+  tar -xf bulma-1.02.5.tar.gz && \
+  rm bulma-1.02.5.tar.gz && \
   export PATH=/opt/build/repo/bulma:$PATH && \
   hugo --gc --minify \
   """
