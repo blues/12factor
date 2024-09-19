@@ -6,6 +6,8 @@ toc: false
 titleIcon: "fa-solid fa-tower-cell"
 ---
 
+### Target a harmonized API that operates across transport protocols
+
 Radio Access Technologies (RATs) like cellular, Wi-Fi, LoRa, and Satellite have long required engineers to intimately understand and design for the features and constraints of the transport in order to bring a product online. These features and constraints impact both hardware (antenna selection, matching network design) and firmware (AT Commands, IP or NIDD communication) in such a way that product builders have historically designed for and locked themselves into a single RAT.
 
 **The twelve-factor thing, however, can and should be RAT-agnostic and target harmonized transport with a unified developer experience, while allowing transport-specific protocols, whether IP-based or otherwise, to operate transparently at the network layer.** And rather than requiring firmware engineers to embed RAT-specific AT Commands, MQTT, or CoAP messages into firmware, developers should be able to target a standards-based, harmonized API that operates across major RATs and allows connected product builders to seamlessly transition between RATs without the need for the underlying firmware to change.

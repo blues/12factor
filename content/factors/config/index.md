@@ -6,6 +6,8 @@ toc: false
 titleIcon: "fa-solid fa-network-wired"
 ---
 
+### Organize devices by fleet & store config in the cloud
+
 A device should never be treated as a group of one, even from the first Prototype. **The twelve-factor thing instead uses the “fleet” as the predominant organizational paradigm** and the way that a connected product manages the lifecycle, deployment location, and behavior of devices.
 
 A fleet, in this context, is a non-exclusive grouping of devices that exhibit similar behaviors as dictated by the scope of the fleet’s purpose. For example, an “operational” fleet may represent devices that have been deployed in the field and operating normally, while a fleet named “quarantine” could be used for devices as they first come online if there’s a need for manual review before approval and migration into an operational fleet. “Repair” could be used for devices undergoing diagnosis or analysis of anomalous behavior, and “decommissioned” for devices that have been removed from operation, but whose data (and metadata) is useful for postmortem analysis and service improvement.

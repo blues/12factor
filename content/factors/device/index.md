@@ -6,6 +6,8 @@ toc: false
 titleIcon: "fa-solid fa-microchip"
 ---
 
+### Build Edge Devices to serve exactly two cloud services: a Management Service and a Solution Service
+
 The twelve-factor thing is not an internet-connected device. A large part of the power of the modern internet comes from that fact that any node can talk to any other node. Every browser endpoint reaches out to an immense number of apps and servers. Every modern server federates myriad service components, from auth to commerce to CDN. The modern internet far more often resembles a mesh than a client-server architecture.
 
 By contrast, most embedded devices:

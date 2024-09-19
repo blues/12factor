@@ -6,6 +6,8 @@ toc: false
 titleIcon: "fa-solid fa-file-arrow-down"
 ---
 
+### Treat firmware as a cloud-managed aspect of your app
+
 In the context of a connected product, *firmware* is the collection of assets that make up the runtime of a device. This often includes:
 
 - A core binary that represents the application running on the device, its dependent libraries, RTOSes, and the like.

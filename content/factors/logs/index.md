@@ -6,6 +6,8 @@ toc: false
 titleIcon: "fa-solid fa-clipboard-list"
 ---
 
+### Treat logs as event streams
+
 Logs provide visibility into the behavior, state, and environment of a running device. Embedded devices commonly write logs to local flash or to removable media like an SD card; but this is only an output format.
 
 Logs are the stream of aggregated, time-ordered events collected from a connected product and which are delivered to a product’s management service either in real-time or on a schedule as dictated by the device’s config. Logs are delivered in a text format, and have no discrete beginning or end, but are intended to flow continuously from the device to cloud as long as the app is operating.
