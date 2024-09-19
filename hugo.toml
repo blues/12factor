@@ -54,6 +54,11 @@ theme                  = "shadocs"
 #
 # Specific configuration
 #
+[includes]
+  css = [
+    "css/custom.css"
+  ]
+
 [params]
   logo                    = "images/12Factor.png"
   logoTouch               = "images/apple-touch-icon.png"
