@@ -1,7 +1,8 @@
-#contentTitle {
-    text-transform: none;
+body p {
+    font-size: 1.3em;
 }
 
-body {
-    font-size: 1.3em;
+#contentTitle {
+    text-transform: none;
+    text-decoration: none;
 }
