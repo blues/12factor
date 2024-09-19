@@ -10,6 +10,8 @@ In an embedded device, events are the artifacts created by the operating behavio
 
 The twelve-factor thing is connected from birth, and its events and state should always be synchronized and harmonized with its cloud service. Events should never be stored on a device permanently, merely cached until the next point of synchronization and purged. State can and should be stored on a device, but should always be replicated to the device’s management service so that the cloud service and downstream consumers have an accurate view of the device’s condition and behavior. State, and even event data when template-driven, should share a common and predictable schema across device and cloud so that data on the wire can be compressed for the sake of speed and efficiency.
 
+![An image of a twelve-factor thing replicating events and state](/images/events-state.png)
+
 For storage, either on a device or cloud service, there are four dominant patterns that a developer may consider when representing events or state:
 
 - Bi-directional queues, or buckets of event data that is stored on a source until the next opportunity for delivery to a target.
