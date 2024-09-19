@@ -1,8 +1,8 @@
-body p {
+div#content p {
     font-size: 1.3em !important;
 }
 
-body li {
+body li:not(.is-marginless) {
     font-size: 1.2em !important;
 }
 
