@@ -18,6 +18,10 @@ A connected product is commonly made of of multiple "units" that each have their
 
 Each layer of a product requires some form of identity, but the only identity that matters in a connected product is the customer’s product serial number, and that everything must be able to be derived from that.
 
+![a device to product association](/images/identity-1.png)
+
 **The twelve-factor thing harmonizes device identity by enabling the embedded device to be associated to a product in the process of bringing it online**. One way to accomplish this is by ensuring that every connected product includes a barcode, or better yet, a QR code for easy association. When using these approaches, during the installation process, an installer can scan the code, which has the embedded device identifier included, and enter (or scan) the Serial Number of the end product that the embedded device is being associated to. This association is then replicated to cloud management and application services so that fleet managers are always able to identify the device and the product that it is connected to.
 
 One final advantage of this approach is that it allows for a connected product to retain its identity, even if the underlying embedded device needs to change. While it should be rare, some number of devices across a fleet of connected products will need to be decommissioned and replaced over the lifetime of a deployment. By using the approach above, when a device is replaced, the device id to product serial number association is updated and replicated to the management service without impacting the end customer view of the connected product.
+
+![a device to product association](/images/identity-2.png)
