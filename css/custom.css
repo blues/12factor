@@ -1,8 +1,12 @@
 body p {
-    font-size: 1.3em;
+    font-size: 1.3em !important;
 }
 
-#contentTitle {
-    text-transform: none;
-    text-decoration: none;
+body li {
+    font-size: 1.2em !important;
+}
+
+div#contentTitle {
+    text-transform: none !important;
+    text-decoration: none !important;
 }
