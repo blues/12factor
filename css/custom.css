@@ -1,4 +1,4 @@
-div#content p {
+div#content p:not(.is-marginless) {
     font-size: 1.3em !important;
 }
 
