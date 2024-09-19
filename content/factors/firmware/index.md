@@ -17,7 +17,8 @@ In the context of a connected product, *firmware* is the collection of assets th
 
 In the latter case, for processors with ROM-based bootloaders, connected products should be designed with a physical connection between the external module responsible for firmware updates and the “strapping pins” available on the processor for placing the device into bootloader mode so that the external module can apply the firmware update by streaming bytes to the device over a serial connection. This hardware-based firmware update process is superior to other approaches because it facilitates the remote rollback and/or recovery of “bricked” devices without necessitating physical access to the device.
 
-![](/public/images/odfu.png)
+![An image of the processing for using a ROM bootloader to update firmware](/images/firmware.png)
+
 
 Furthermore, a cloud-based approach to firmware management allows for connected products that can be remotely flashed with temporary diagnostic images which change the behavior of the device for the purpose of data collection to aid troubleshooting, before returning ephemerally to normal operation with the original firmware.
 
