@@ -1,3 +1,7 @@
-#contentContainer #contentTitle {
+#contentTitle {
     text-transform: none;
+}
+
+body {
+    font-size: 1.3em;
 }
