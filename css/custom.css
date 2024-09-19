@@ -6,6 +6,10 @@ body li:not(.is-marginless) {
     font-size: 1.2em !important;
 }
 
+div#content img {
+    border-radius: 5px;
+}
+
 div#contentTitle {
     text-transform: none !important;
     text-decoration: none !important;

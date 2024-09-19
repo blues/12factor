@@ -1,5 +1,5 @@
 ---
-weight: 3000
+weight: 0
 title: "Factors"
 description: "Descriptions of the 12 factors"
 titleIcon: "fa-solid fa-cubes"
