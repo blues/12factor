@@ -1,0 +1,59 @@
+<!-- Custom code inserted in the navbar info modal -->
+{{- $optMd := dict "markup" "goldmark" -}}
+<div class="columns is-marginless is-multiline is-centered">
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.themeParams.github.main -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-brands fa-github fa-2x"></i>
+        <p>{{- i18n "navbarinfo_github_main" -}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.themeParams.github.download -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-solid fa-download fa-2x"></i>
+        <p>{{- i18n "navbarinfo_github_download" -}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.themeParams.github.issue -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-solid fa-circle-info fa-2x"></i>
+        <p>{{- i18n "navbarinfo_github_issue" -}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="column">
+    <a
+      class="is-itext-link"
+      href="{{- .Site.Data.themeParams.github.fork -}}"
+      target="_blank"
+    >
+      <div>
+        <i class="fa-solid fa-code-branch fa-2x"></i>
+        <p>{{- i18n "navbarinfo_github_fork" -}}</p>
+      </div>
+    </a>
+  </div>
+</div>
+<p>
+  Website built with <a href="https://gohugo.io/">Hugo</a>  {{- printf "%s (%s)" (i18n "navbarinfo_content") hugo.Version | .RenderString $optMd -}}
+</p>
+<p>Inspired by <a href="12Factor.net">The Twelve-Factor App</a> by Adam Wiggins</p>
+<p>
+  {{- .Site.Copyright -}}
+</p>
