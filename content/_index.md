@@ -9,14 +9,19 @@ The App of the future is a connected thing, and much as the Twelve-Factor App me
 
 ![An image of a twelve-factor thing communicating through management and solution services](/images/device.png)
 
+## Background
+Connected devices present unique challenges that pure software applications do not face. These devices operate at the intersection of software and hardware, often in remote environments, and under constraints like limited computational resources and power availability. They must be secure, and remain operational over long periods (and distances) without human intervention.
+
+The absence of broadly-accepted standards and the inconsistent implementation approaches dictated by Radio Access Technologies (RATs) has led to a fragmented ecosystem, with deployed devices varying widely in their quality, security, interoperability, and maintainability. And while standards bodies and industry groups exist and continue to work to pave common ground for connected products, we believe a practical, principled approach is needed to complement these efforts. Drawing from lessons learned in the early days of cloud-native software development, many of which were captured brilliantly in the [Twelve-Factor App methodology](https://12factor.net), we’ve set out to codify principles to guide builders of connected solutions.
+
+Drawing from the real-world experience of developers, system architects, and operations professionals, the **Twelve-Factor Thing** methodology is a roadmap for the next generation of managed, intelligent edge devices. These principles prioritize simplicity, resilience, and a strong affinity between device and cloud, ensuring that connected devices will function, remain secure, and evolve long after deployment.
+
 ## Introduction
 We’ve entered the era of data and AI. An era where the value of any business process or application is measured by insights unlocked, business models enabled, and decisions accelerated. There’s more need than ever to connect the unconnected: to bring the physical world online so that the data in our machines, factories, cities, and vehicles can unlock those insights, business models, and decisions. In this data and AI era, embracing an architecture of cloud-connected devices has never been more imperative. And yet, engineers and builders are locked into Radio Access Technologies (RATs), forever at the mercy of network sunsets, scrambling to maintain systems insecurely attachable from the internet, and building systems that either do not scale, or can not scale economically.
 
 The enemy of hyper-scale systems that are reliable, secure, and economical is a Do-It-Yourself (DIY) approach: piecemeal chip-down design that connects an off-the-shelf low-cost modem to a bespoke cloud application or packaged IoT platform.
 
 The modem is dead. The IoT Platform is dead. This document explains why.
-
-It’s the era of standardized cloud toolchains, standard cloud app talent, hardware security, myriad cloud data stores, and a multitude of wireless transports. It’s an era of harmonization and driving interoperability across RATs, cloud stores, and physical device services through API-driven approaches.
 
 The twelve-factor thing is a methodology for building managed, intelligent edge devices. They are:
 
@@ -32,13 +37,6 @@ This methodology describes an approach for building products that:
 - And can **scale up** without significant changes to hardware, firmware, tooling, architecture, or development practices.
 
 The twelve-factor methodology can be applied to apps written in any programming language, for any embedded target (whether MCU or SBC), to target any modern RAT, and which use any combination of cloud services (cloud-edge service, database, queue, memory cache, etc).
-
-## Background
-Connected devices present unique challenges that pure software applications do not face. These devices operate at the intersection of software and hardware, often in remote environments, and under constraints like limited computational resources and power availability. They must be secure, and remain operational over long periods (and distances) without human intervention.
-
-The absence of broadly-accepted standards and the inconsistent implementation approaches dictated by Radio Access Technologies (RATs) has led to a fragmented ecosystem, with deployed devices varying widely in their quality, security, interoperability, and maintainability. And while standards bodies and industry groups exist and continue to work to pave common ground for connected products, we believe a practical, principled approach is needed to complement these efforts. Drawing from lessons learned in the early days of cloud-native software development, many of which were captured brilliantly in the [Twelve-Factor App methodology](https://12factor.net), we’ve set out to codify principles to guide builders of connected solutions.
-
-Drawing from the real-world experience of developers, system architects, and operations professionals, the **Twelve-Factor Thing** methodology is a roadmap for the next generation of managed, intelligent edge devices. These principles prioritize simplicity, resilience, and a strong affinity between device and cloud, ensuring that connected devices will function, remain secure, and evolve long after deployment.
 
 ## Who Should Read This Document?
 Any developer building connected applications which bring physical objects “online.” Product managers who plan and design such applications. Ops and deployment engineers that manage such applications.
