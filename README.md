@@ -11,6 +11,6 @@ Changes should take place through Pull Requests. Deployment of changes is automa
 
 Created by Brandon Satrom & Ray Ozzie
 
-Inspired by [https://12Factor.net](The Twelve-Factor App) by Adam Wiggins.
+Inspired by [The Twelve-Factor](https://12Factor.net) App by Adam Wiggins.
 
 Contributions from: Tiffany Miller, TJ VanToll, Alistair Fulton, Marcin Nagy, Carlton Henderson
